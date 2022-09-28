@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c703125b-2ca3-42bf-90f2-34e192ce03bb">
+  <name>logisticToolLogo</name>
+  <synonym>
+    <key>ru</key>
+    <value>Logistic tool logo</value>
+  </synonym>
+</mdclass:CommonPicture>

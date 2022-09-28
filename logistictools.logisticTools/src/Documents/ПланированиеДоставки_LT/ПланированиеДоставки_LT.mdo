@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3203afc-4c07-4799-bf7b-11ab4d6c5048">
+  <producedTypes>
+    <objectType typeId="11184cf5-078a-455f-9d96-6995f508ff9f" valueTypeId="7b85ecb7-fd2a-45fd-8883-8986521085e8"/>
+    <refType typeId="66cc3edb-e875-44cb-b02f-8c2846ef8dd6" valueTypeId="47a4daae-d0e3-48ba-ae1b-12f1aa640608"/>
+    <selectionType typeId="487e15fd-912a-40c1-8687-70745321a05b" valueTypeId="7296802d-1fe8-4250-a6dd-a993770f5a24"/>
+    <listType typeId="a1c443a8-4511-4308-901e-9911eff41842" valueTypeId="7e2bfa96-4ac2-4acd-844a-7c2fc9c9b331"/>
+    <managerType typeId="28d1a07a-54c8-4045-a613-b0d8c5f1e3fe" valueTypeId="33a8aa9b-1808-4e6c-a547-9df0e8eb3d9d"/>
+  </producedTypes>
+  <name>ПланированиеДоставки_LT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПланированиеДоставки_LT.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПланированиеДоставки_LT.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="23eddc37-56c7-4713-a9d2-aa72bc2f04af">
+    <name>НастройкаПериодаДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка периода дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9475f8bc-1cc7-43e9-9850-4b38ffd88d98">
+    <name>НастройкаПериодаДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка периода дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="db543e74-065a-4ee0-8eca-724db8913883">
+    <name>СкладОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад отгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8d556cfb-fb7f-4b89-bef2-55a25a02b941">
+    <name>idПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id планирования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bae99c0-e401-4907-be6b-b5f6b5bd94cd">
+    <name>НуженПовторныйРасчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нужен повторный расчет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6d116b21-f292-4aca-9dba-ce3eded03339">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

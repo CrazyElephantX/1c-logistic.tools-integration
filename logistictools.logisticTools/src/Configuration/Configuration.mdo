@@ -38,5 +38,9 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.LogisticTool</subsystems>
+  <commonPictures>CommonPicture.logisticToolLogo</commonPictures>
   <roles>Role.LT_ОсновнаяРоль</roles>
+  <catalogs>Catalog.Настройки_LT</catalogs>
+  <documents>Document.ПланированиеДоставки_LT</documents>
 </mdclass:Configuration>

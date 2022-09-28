@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f10af04b-a11b-4664-b041-f7d62552960d">
+  <producedTypes>
+    <objectType typeId="0cb26249-1714-449d-b428-47424b165d32" valueTypeId="52be28e6-3511-4677-91fd-1dc14a0dfb82"/>
+    <refType typeId="799f7308-f99a-43da-96ee-d9d145b0e6cb" valueTypeId="b3239a81-3f8f-421b-bdc3-a303f3ffc407"/>
+    <selectionType typeId="5cb37a9f-c80a-4103-a3db-c93878498adc" valueTypeId="cca13fd8-2a6c-4536-9f27-f02548ad5934"/>
+    <listType typeId="47ba496d-591c-4e68-9c50-a10ef7110e29" valueTypeId="9c739841-443b-4903-b97e-afb31ebce683"/>
+    <managerType typeId="141f58a8-e67c-4100-a292-60e68b818ab5" valueTypeId="67e7b2c2-3395-474d-bbd1-d8289a84a81c"/>
+  </producedTypes>
+  <name>Настройки_LT</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки LT</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Настройки_LT.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Настройки_LT.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1a3379dd-cead-443d-af0b-ea2dd9314bf6">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39707223-fb57-4971-8fe1-132f4499962d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6faeed0e-a228-4848-867f-34351af69576">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <templates uuid="36f0d50d-2be3-4db0-8d78-4049913ed0d3">
+    <name>НастройкиПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки по умолчанию</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>
